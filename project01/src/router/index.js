@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import login from 'C:/Users/mamol008/Desktop/vue1111/project01/src/router/views/login.vue';
-import login_success from 'C:/Users/mamol008/Desktop/vue1111/project01/src/router/views/login_success.vue';
+import login from '../router/views/login.vue';
+import login_success from '../router/views/login_success.vue';
+
 
 const routes = [
     {
-    path: '/', component: login },
+    path: '/' },
     {
     path: '/login', component: login },
     {
