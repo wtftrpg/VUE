@@ -3,7 +3,7 @@
         <title>ログイン画面</title>
     </head>
     <div>
-        <h1>登録画面master11111</h1>
+        <h1>登録画面</h1>
         <div>
             <label for="name">名前</label>
             <el-input class="input" type="text" id="name" v-model="name" ></el-input>
